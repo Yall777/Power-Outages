@@ -1,3 +1,5 @@
 remote_theme: pages-themes/modernist@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+title: [An Analysis of Economic Inequality and Power Outage Duration]
+description: [An investigation into whether a state's economic standing predicts how long major power outages last in the U.S., using data from the Department of Energy (2000–2016)]
