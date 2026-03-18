@@ -123,7 +123,7 @@ I chose a permutation test because the extreme right skew in outage duration vio
 
 **Type:** Regression, since outage duration is a continuous numeric variable.
 
-**Response Variable:** `OUTAGE.DURATION` — this directly measures outage severity from the public's perspective: how long they go without power.
+**Response Variable:** OUTAGE.DURATION — this directly measures outage severity from the public's perspective: how long they go without power.
 
 **Evaluation Metric:** RMSE (Root Mean Squared Error). I chose RMSE over Mean Absolute Error because RMSE penalizes large errors more heavily, which is appropriate here since underestimating a very long outage is more costly than being slightly off on a short one. RMSE is also in the same units as our target (minutes), making it easy to interpret.
 
