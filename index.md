@@ -200,6 +200,7 @@ The residual plot below shows the distribution of prediction errors across actua
 <iframe src="assets/model-comparison.html" width="800" height="600" frameborder="0"></iframe>
 
 The final model nearly halved the test RMSE, dropping from 7,185 to approximately 3,667 minutes — reducing the average prediction error from roughly 5 days to 2.5 days. The R² improved from 0.16 to 0.20, a 25% increase in explained variance. This improvement came from adding climate, demographic, and pricing features the baseline lacked, log-transforming the skewed target, and using a Random Forest to capture nonlinear relationships. While the model still only explains 20% of the variance, outage duration is inherently difficult to predict from pre-outage information alone — real-time factors like crew availability and equipment damage likely drive much of the remaining variation.
+
 ---
 
 ## Fairness Analysis
