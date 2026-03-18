@@ -3,6 +3,15 @@ layout: default
 title: Economic Inequality and Power Outage Duration
 ---
 
+<style>
+.page-header {
+  background-image: url('assets/Powerlines.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
+</style>
+
 ## Introduction
 
 In this project, I examined a dataset of major power outages in the U.S. from January 2000 to July 2016. These major outages are defined by the Department of Energy as events that impacted at least 50,000 customers or caused an unplanned energy demand loss of at least 300 MegaWatts. The dataset was accessed from Purdue University's Laboratory for Advancing Sustainable Critical Infrastructure.
